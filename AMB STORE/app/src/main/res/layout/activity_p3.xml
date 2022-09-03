@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/backch"
+    tools:context=".p3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="209dp"
+        style="@style/backch" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="477dp"
+        android:fontFamily="@font/janna"
+        android:text="AMB STORES"
+        style="@style/textch"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/ambteam1"
+        android:layout_width="196dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="194dp"
+        app:srcCompat="@drawable/ambteam" />
+
+    <ImageView
+        android:id="@+id/testore"
+        android:layout_width="196dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="4dp"
+        app:srcCompat="@drawable/testore" />
+
+    <ImageView
+        android:id="@+id/exstore"
+        android:layout_width="196dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="426dp"
+        app:srcCompat="@drawable/exstore" />
+
+
+    <ImageView
+        android:id="@+id/atstore"
+        android:layout_width="196dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:srcCompat="@drawable/atstore" />
+
+    <ImageView
+        android:id="@+id/SETTING1"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24" />
+
+    <TextView
+        android:id="@+id/username3"
+        style="@style/textch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="10dp"
+        android:text="TextView" />
+
+</RelativeLayout>

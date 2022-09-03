@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272692464904",
+    "project_id": "amb-stores",
+    "storage_bucket": "amb-stores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272692464904:android:744133b9a199395cad30bd",
+        "android_client_info": {
+          "package_name": "com.example.ambstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272692464904-gh6v2tgdp728b0402lpdsf8j1tb075ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2cQqUwVKeesWfCeHyYo83FuI8OYqCMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272692464904-gh6v2tgdp728b0402lpdsf8j1tb075ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

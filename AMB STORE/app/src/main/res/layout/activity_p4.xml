@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/backch"
+    tools:context=".P4">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        style="@style/backch" />
+
+    <TextView
+        android:id="@+id/ambname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="474dp"
+        android:fontFamily="@font/janna"
+        android:text="AMB TEAM"
+        style="@style/textch"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/evilcity"
+        android:layout_width="190dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="344dp"
+        app:srcCompat="@drawable/amb1" />
+
+
+    <ImageView
+        android:id="@+id/FASHIONALL"
+        android:layout_width="190dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginBottom="343dp"
+        app:srcCompat="@drawable/amb2" />
+
+    <ImageView
+        android:id="@+id/testore"
+        android:layout_width="190dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="166dp"
+        app:srcCompat="@drawable/amb3" />
+
+    <ImageView
+        android:id="@+id/jxl"
+        android:layout_width="190dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="166dp"
+        app:srcCompat="@drawable/amb4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ambname2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/evilname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="295dp"
+        android:fontFamily="@font/janna"
+        android:text="LE LOGO"
+        style="@style/textch"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/atname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="298dp"
+        android:fontFamily="@font/janna"
+        android:text="FASHION ALL"
+        style="@style/textch"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/jxlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="115dp"
+        android:fontFamily="@font/janna"
+        android:text="AO LOGO"
+        style="@style/textch"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/telname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="115dp"
+        android:fontFamily="@font/janna"
+        android:text="RM LOGO"
+        style="@style/textch"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/sh"
+        android:layout_width="211dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="33dp"
+        android:background="@color/BACKBO"
+        android:fontFamily="@font/janna"
+        android:text="شراء شعار"
+        android:textColor="#eeeeee"
+        android:textColorHint="#0C0404"
+        android:textColorLink="#000000"
+        android:textSize="34sp" />
+
+</RelativeLayout>
+

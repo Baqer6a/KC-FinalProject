@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/BACKGROUNDCOLOR"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:srcCompat="@drawable/back" />
+
+    <Button
+        android:id="@+id/enter2"
+        android:layout_width="211dp"
+        android:layout_height="61dp"
+        android:layout_above="@+id/enter1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/BACKBO"
+        android:fontFamily="@font/janna"
+        android:text="تسجيل الدخول"
+        android:textColor="#eeeeee"
+        android:textColorHint="#0C0404"
+        android:textColorLink="#000000"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/enter1"
+        android:layout_width="211dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="285dp"
+        android:background="@color/BACKBO"
+        android:fontFamily="@font/janna"
+        android:text="انشاء حساب"
+        android:textColor="#eeeeee"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="128dp"
+        android:fontFamily="@font/janna"
+        android:text="WELCOME"
+        android:textColor="#EEEEEE"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="82dp"
+        android:fontFamily="@font/janna"
+        android:text="TO"
+        android:textColor="#EEEEEE"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/janna"
+        android:text="AMB STORE"
+        android:textColor="#EEEEEE"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="396dp"
+        android:layout_height="285dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/pngegg" />
+
+</RelativeLayout>

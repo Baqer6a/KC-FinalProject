@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AMBSTORE" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F0A500</item>
+        <item name="colorSecondaryVariant">#F0A500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#F0A500</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="textch">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#000000</item>
+    </style>
+
+    <style name="backch">
+        <item name="srcCompat">@drawable/night</item>
+        <item name="android:background">#EAEAEA</item>
+    </style>
+
+</resources>
