@@ -9,14 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView6"
+        style="@style/backch"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="209dp"
-        style="@style/backch" />
+        android:layout_marginBottom="209dp" />
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/textch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -26,7 +27,6 @@
         android:layout_marginBottom="477dp"
         android:fontFamily="@font/janna"
         android:text="AMB STORES"
-        style="@style/textch"
         android:textSize="48sp" />
 
     <ImageView

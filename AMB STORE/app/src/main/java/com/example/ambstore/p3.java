@@ -46,5 +46,15 @@ public class p3 extends AppCompatActivity {
         String username11 = BB.getString("name");
 
         username3.setText(username11);
+
+        Intent top7 = new Intent(p3.this, p7.class);
+
+        ImageView exstore = findViewById(R.id.exstore);
+        exstore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(top7);
+            }
+        });
     }
 }

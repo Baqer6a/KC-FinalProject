@@ -5,112 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/backch"
-    tools:context=".p5">
+    tools:context=".p6">
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView6"
         style="@style/backch"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="450dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="209dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="452dp"
+        android:fontFamily="@font/janna"
+        android:text="شراء شعار"
+        android:textSize="48sp" />
 
     <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="204dp"
-        android:background="@color/BACKBO"
-        android:fontFamily="@font/janna"
-        android:text="upload photo "
-        android:textColor="#EAEAEA" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="110dp"
-        android:layout_height="103dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="94dp"
-        android:layout_marginEnd="151dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView44"
-        style="@style/textch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="451dp"
-        android:layout_marginEnd="246dp"
-        android:fontFamily="@font/janna"
-        android:text="page management" />
-
-    <Switch
-        android:id="@+id/switch1"
-        style="@style/textch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="477dp"
-        android:minWidth="48dp"
-        android:minHeight="48dp" />
-
-    <TextView
-        android:id="@+id/modename"
-        style="@style/textch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/enter2"
+        android:layout_width="211dp"
+        android:layout_height="61dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="269dp"
-        android:layout_marginBottom="144dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/BACKBO"
         android:fontFamily="@font/janna"
-        android:text="light mode"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/textView55"
-        style="@style/textch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="223dp"
-        android:fontFamily="@font/janna"
-        android:text="Account management " />
+        android:text="الدفع"
+        android:textColor="#EAEAEA"
+        android:textColorHint="#0C0404"
+        android:textColorLink="#000000"
+        android:textSize="34sp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username"
+        android:id="@+id/projectname"
         style="@style/textch"
         android:layout_width="294dp"
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="322dp"
-        android:hint="ABDULMOHSEN"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="354dp"
+        android:hint="project name"
         app:boxBackgroundColor="#F0A500"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#F0A500"
         app:counterEnabled="true"
-        app:counterMaxLength="10"
         app:endIconMode="clear_text"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconDrawable="@android:drawable/ic_menu_sort_alphabetically"
         app:startIconTint="#F0A500">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/username2"
+            android:id="@+id/projectname2"
             style="@style/textch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -121,72 +76,106 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password"
+        android:id="@+id/logocolors"
         style="@style/textch"
         android:layout_width="294dp"
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="208dp"
-        android:hint="password"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="306dp"
+        android:hint="logo colors"
         app:boxBackgroundColor="#F0A500"
+        app:boxBackgroundMode="outline"
         app:boxStrokeColor="#F0A500"
         app:counterEnabled="true"
-        app:counterMaxLength="20"
-        app:endIconMode="password_toggle"
-        app:passwordToggleEnabled="true"
-        app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_color_lens_24"
         app:startIconTint="#F0A500">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password1"
+            android:id="@+id/logocolors2"
             style="@style/textch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
+            android:inputType="textPersonName"
             android:textColorHighlight="#F0A500"
-            android:textColorHint="#eeeeee"
             android:textColorLink="#F0A500"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/number"
+        android:id="@+id/logoidea"
         style="@style/textch"
         android:layout_width="294dp"
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="270dp"
-        android:hint="99999999"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="260dp"
+        android:hint="logo idea"
         app:boxBackgroundColor="#F0A500"
+        app:boxBackgroundMode="outline"
         app:boxStrokeColor="#F0A500"
         app:counterEnabled="true"
-        app:counterMaxLength="8"
-        app:prefixText="+965"
-        app:prefixTextColor="#F3F3F3"
-        app:startIconDrawable="@android:drawable/stat_sys_phone_call"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_brush_24"
         app:startIconTint="#F0A500">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/number2"
+            android:id="@+id/logoidea2"
             style="@style/textch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="phone"
+            android:inputType="textPersonName"
             android:textColorHighlight="#F0A500"
-            android:textColorHint="#eeeeee"
             android:textColorLink="#F0A500"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/anotheraddition"
+        style="@style/textch"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="205dp"
+        android:hint="Another addition"
+        app:boxBackgroundColor="#F0A500"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#F0A500"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_visibility_24"
+        app:startIconTint="#F0A500">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/anotheraddition2"
+            style="@style/textch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColorHighlight="#F0A500"
+            android:textColorLink="#F0A500"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="133dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="137dp"
+        app:srcCompat="@drawable/logo" />
 
 </RelativeLayout>
